@@ -11,3 +11,16 @@ end
 
   steve_jobs = Person.new
   steve_jobs.name = "Steve Jobs"
+
+class Job
+  def job=(persons_job)
+    @job = persons_job
+  end
+
+  def job
+    @job
+  end
+
+end
+
+steve_jobs.job = "CEO of Apple Inc."
