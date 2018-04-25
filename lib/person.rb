@@ -11,4 +11,3 @@ end
 
   steve_jobs = Person.new
   steve_jobs.name = "Steve Jobs"
-    
