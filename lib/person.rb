@@ -7,6 +7,8 @@ class Person
     @name
   end
 
+end
+
   steve_jobs = Person.new
   steve_jobs.name = "Steve Jobs"
     
