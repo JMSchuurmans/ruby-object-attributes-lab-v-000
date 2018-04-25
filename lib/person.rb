@@ -24,4 +24,3 @@ class Person
 end
 
 steve_jobs.job = "CEO of Apple Inc."
-
