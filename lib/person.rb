@@ -22,6 +22,3 @@ class Job
   end
 
 end
-
-steve_jobs=Person.new
-steve_jobs.job = "CEO of Apple Inc."
