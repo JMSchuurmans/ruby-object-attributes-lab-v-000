@@ -12,7 +12,7 @@ end
   steve_jobs = Person.new
   steve_jobs.name = "Steve Jobs"
 
-class Job
+class Person
   def job=(persons_job)
     @job = persons_job
   end
@@ -22,3 +22,6 @@ class Job
   end
 
 end
+
+steve_jobs.job = "CEO of Apple Inc."
+
